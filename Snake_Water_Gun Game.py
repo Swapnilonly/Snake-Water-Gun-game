@@ -15,7 +15,7 @@ def get_winner(u_score, c_score):
         print("Thanks for Playing !!!")
     else:
         print(f"Score is Tie. Your Score: {u_score}, Computer Score: {c_score}")
-while i <= 4:
+while i <= 10:
     ch = ["Snake", "Water", "Gun"]
     user_choice = input("Enter your Choice: Snake, Water or Gun or Quite to exit \n").capitalize()
     if user_choice == "Quite":
